@@ -1,0 +1,10 @@
+name: RewardADs
+version: 3.0
+main: it.nathanub.RewardADs.Main
+author: ["Nathanub", "Kutateki_"]
+api-version: 1.13
+softdepend:
+  - PlaceholderAPI
+commands:
+  rewardads:
+    description: Spam message and main command

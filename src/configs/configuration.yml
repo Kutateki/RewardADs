@@ -1,0 +1,19 @@
+#RewardADs' configuration.yml
+
+
+
+#To immerse yourself in the world of RewardADs and receive the activation code, browse our site: https://rewardads.vpsgh.it
+code: XXXXXXXXXXX
+
+#Put multiple announce-messages by using "&&", where is "(button)" there will the link to open the webiste
+announce-messages: "&aEarn by clicking:" && "(button) &6Ads now, coins instantly!"
+#Adjust your announce-delay in seconds
+announce-delay: 300
+#True or false to enable or disable the annnouncer
+annoucer-enabled: true
+
+#Adjust earn-per-ad coins
+earn-per-ad: 1
+
+#Put your commands to open the gui
+rewards-commands: "rewards" && "buy" && "givemewhatideserve"

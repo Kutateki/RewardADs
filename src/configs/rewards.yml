@@ -1,0 +1,41 @@
+#RewardADs' rewards.yml
+
+
+
+#Internal apis (use them in lores and in commands):
+#Use %player% or %playername% to call the player name
+#Use %money% to call the player's coins
+
+#The name of the category **use the same name here and down**
+Cat:
+  #The name of the category in the gui **use the same name here and up**
+  name: "&eCat"
+  #Select the category to put this reward
+  category: Dog
+  #Adjust the cost of reward
+  cost: 1000
+  #The material of the item (use caps)
+  material: DIAMOND_BLOCK
+  #Select the slot of the item
+  slot: 0
+  #Put multiple reward's lores by using "&&" (supports normal color and hex colors)
+  lore: "&bBuy me!" && "&aCost > %money%/1000"
+  #Put multiple reward's commands by using "&&" (supports normal color and hex colors)
+  commands: "lp user %playername% permission set cat.*" && "say &6%playeruuid% have bought Cat!"
+
+#The name of the category **use the same name here and down**
+Dog:
+  #The name of the category in the gui **use the same name here and up**
+  name: "&eDog"
+  #Select the category to put this reward
+  category: Cow
+  #Adjust the cost of reward
+  cost: 12000
+  #The material of the item (use caps)
+  material: GOLD_BLOCK
+  #Select the slot of the item
+  slot: 0
+  #Put multiple reward's lores by using "&&" (supports normal color and hex colors)
+  lore: "&4Buy me!" && "&7Cost > %money%/12000"
+  #Put multiple reward's commands by using "&&" (supports normal color and hex colors)
+  commands: "pay %playername% 100"

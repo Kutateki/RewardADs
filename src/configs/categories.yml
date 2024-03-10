@@ -1,0 +1,29 @@
+#RewardADs' categories.yml
+
+
+
+#The name of the category **use the same name here and down**
+Dog:
+  #The name of the category in the gui **use the same name here and up**
+  name: "&bDog"
+  #The material of the item (use caps)
+  material: GOLD_BLOCK
+  #Select the slot of the item
+  slot: 0
+  #Put multiple category's lores by using "&&" (supports normal color and hex colors)
+  lores: "I powers"
+  #Enable or disable the glow
+  glow: false
+
+#The name of the category **use the same name here and down**
+Cow:
+  #The name of the category in the gui **use the same name here and up**
+  name: "&bCow"
+  #The material of the item (use caps)
+  material: DIAMOND_BLOCK
+  #Select the slot of the item
+  slot: 1
+  #Put multiple category's lores by using "&&" (supports normal color and hex colors)
+  lores: "II powers" && "super upgrades!!"
+  #Enable or disable the glow
+  glow: true
